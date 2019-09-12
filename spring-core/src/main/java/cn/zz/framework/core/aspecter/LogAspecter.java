@@ -1,7 +1,7 @@
 package cn.zz.framework.core.aspecter;
 
 import cn.zz.framework.core.annotation.Around;
-import cn.zz.framework.core.annotation.AutoBuild;
+import cn.zz.framework.core.annotation.AutoBean;
 import cn.zz.framework.core.annotation.LogHead;
 import cn.zz.framework.core.entity.AspectPoint;
 import cn.zz.framework.core.util.PropertUtil;
@@ -15,7 +15,7 @@ import java.lang.reflect.Method;
  * @Since 2019/8/23
  * @Version 1.0
  */
-@AutoBuild
+@AutoBean
 public class LogAspecter {
 
     @Around(annotationClass= LogHead.class)

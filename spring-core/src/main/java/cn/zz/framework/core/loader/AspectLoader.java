@@ -2,7 +2,7 @@ package cn.zz.framework.core.loader;
 
 import cn.zz.framework.core.annotation.Around;
 import cn.zz.framework.core.annotation.Arounds;
-import cn.zz.framework.core.annotation.AutoBuild;
+import cn.zz.framework.core.annotation.AutoBean;
 import cn.zz.framework.core.constant.FrameworkConstant;
 import cn.zz.framework.core.container.BeanContainer;
 import cn.zz.framework.core.entity.AspectEntity;
@@ -41,7 +41,7 @@ public class AspectLoader implements Loader {
 			if (StringUtil.isNullOrEmpty(cla.getAnnotations())) {
 				continue;
 			}
-			Annotation initBean = PropertUtil.getAnnotation(cla, AutoBuild.class);
+			Annotation initBean = PropertUtil.getAnnotation(cla, AutoBean.class);
 			if (initBean == null) {
 				continue;
 			}

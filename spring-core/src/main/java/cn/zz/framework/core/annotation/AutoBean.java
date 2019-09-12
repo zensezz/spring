@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
  */
 @Target({ElementType.TYPE,ElementType.FIELD,ElementType.ANNOTATION_TYPE})
 @Retention(RetentionPolicy.RUNTIME) 
-public @interface AutoBuild {
+public @interface AutoBean {
 	
 	String []value() default "";
 

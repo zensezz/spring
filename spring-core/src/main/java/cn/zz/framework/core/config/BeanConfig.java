@@ -18,7 +18,7 @@ public class BeanConfig {
     /**
      * 配置前缀
      */
-    public static final String PREFIX = "coody";
+    public static final String PREFIX = "zz";
 
     /**
      * BeanName
@@ -52,7 +52,7 @@ public class BeanConfig {
     /**
      * 扫描的包配置
      */
-    public String packager = "org.coody.framework";
+    public String packager = "cn.zz.framework";
 
     /**
      * 要启动的组件

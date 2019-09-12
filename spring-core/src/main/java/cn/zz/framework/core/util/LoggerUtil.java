@@ -3,9 +3,8 @@ package cn.zz.framework.core.util;
 import java.lang.reflect.Method;
 
 import cn.zz.framework.core.annotation.LogHead;
-import cn.zz.framework.core.constant.LoggerConstant;
 import cn.zz.framework.core.container.ThreadContainer;
-import cn.zz.framework.core.util.StringUtil;
+import cn.zz.framework.core.enums.LoggerConstant;
 
 public class LoggerUtil {
 
@@ -25,17 +24,17 @@ public class LoggerUtil {
         return handle.value();
     }
     public static void writeLog(String module) {
-        ThreadContainer.set(LoggerConstant.LOGGER_WRAPPER, module);
+        ThreadContainer.set(LoggerConstant.LOGGER_WRAPPER.getValue(), module);
     }
 
     public static String minusLog() {
-        String logHead = ThreadContainer.get(LoggerConstant.LOGGER_WRAPPER);
+        String logHead = ThreadContainer.get(LoggerConstant.LOGGER_WRAPPER.getValue());
         if (logHead == null) {
             return "";
         }
         String tabs[] = logHead.split("_");
         if (tabs.length == 1) {
-            ThreadContainer.set(LoggerConstant.LOGGER_WRAPPER, "");
+            ThreadContainer.set(LoggerConstant.LOGGER_WRAPPER.getValue(), "");
             return "";
         }
         StringBuilder sb = new StringBuilder();
@@ -45,12 +44,12 @@ public class LoggerUtil {
             }
             sb.append(tabs[i]);
         }
-        ThreadContainer.set(LoggerConstant.LOGGER_WRAPPER, sb.toString());
+        ThreadContainer.set(LoggerConstant.LOGGER_WRAPPER.getValue(), sb.toString());
         return sb.toString();
     }
 
 
     public static String getCurrLog() {
-        return ThreadContainer.get(LoggerConstant.LOGGER_WRAPPER);
+        return ThreadContainer.get(LoggerConstant.LOGGER_WRAPPER.getValue());
     }
 }

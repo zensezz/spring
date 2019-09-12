@@ -1,6 +1,6 @@
 package cn.zz.framework.core.loader;
 
-import cn.zz.framework.core.annotation.AutoBuild;
+import cn.zz.framework.core.annotation.AutoBean;
 import cn.zz.framework.core.assember.BeanAssember;
 import cn.zz.framework.core.container.BeanContainer;
 import cn.zz.framework.core.loader.i.Loader;
@@ -29,8 +29,8 @@ public class BeanLoader implements Loader {
 			if (StringUtil.isNullOrEmpty(clazz.getAnnotations())) {
 				continue;
 			}
-			Annotation autoBuild = PropertUtil.getAnnotation(clazz, AutoBuild.class);
-			if (StringUtil.isNullOrEmpty(autoBuild)) {
+			Annotation AutoBean = PropertUtil.getAnnotation(clazz, AutoBean.class);
+			if (StringUtil.isNullOrEmpty(AutoBean)) {
 				continue;
 			}
 			BeanAssember.initBean(clazz);

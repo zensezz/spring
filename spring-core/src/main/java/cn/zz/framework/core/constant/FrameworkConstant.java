@@ -13,8 +13,7 @@ public class FrameworkConstant {
 	 * 切面存储。key为切面ID，Value为切面实例
 	 */
 	public static final Map<String, List<AspectEntity>> ASPECT_MAP = new ConcurrentHashMap<String, List<AspectEntity>>();
-	
-	
+
 	public static void writeToAspectMap(String methodKey,AspectEntity aspectEntity){
 		if(FrameworkConstant.ASPECT_MAP.containsKey(methodKey)){
 			FrameworkConstant.ASPECT_MAP.get(methodKey).add(aspectEntity);

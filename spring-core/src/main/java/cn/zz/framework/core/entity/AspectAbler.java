@@ -1,7 +1,7 @@
 package cn.zz.framework.core.entity;
 
-import cn.zz.framework.core.constant.AspectConstant;
 import cn.zz.framework.core.container.ThreadContainer;
+import cn.zz.framework.core.enums.AspectConstant;
 import lombok.Data;
 import net.sf.cglib.proxy.MethodProxy;
 

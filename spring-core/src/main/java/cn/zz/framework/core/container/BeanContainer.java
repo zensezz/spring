@@ -1,6 +1,6 @@
 package cn.zz.framework.core.container;
 
-import cn.zz.framework.core.annotation.AutoBuild;
+import cn.zz.framework.core.annotation.AutoBean;
 import cn.zz.framework.core.constant.InsideTypeConstant;
 import cn.zz.framework.core.exception.BeanConflictException;
 import cn.zz.framework.core.util.ClassUtil;
@@ -105,7 +105,7 @@ public class BeanContainer {
 			if (StringUtil.isNullOrEmpty(clazz.getAnnotations())) {
 				return beanNames;
 			}
-			List<Annotation> initBeans = PropertUtil.getAnnotations(clazz, AutoBuild.class);
+			List<Annotation> initBeans = PropertUtil.getAnnotations(clazz, AutoBean.class);
 			if (StringUtil.isNullOrEmpty(initBeans)) {
 				return beanNames;
 			}

@@ -1,6 +1,6 @@
 package cn.zz.framework.core.assember;
 
-import cn.zz.framework.core.annotation.AutoBuild;
+import cn.zz.framework.core.annotation.AutoBean;
 import cn.zz.framework.core.container.BeanContainer;
 import cn.zz.framework.core.exception.BeanInitException;
 import cn.zz.framework.core.exception.BeanNameCreateException;
@@ -76,11 +76,11 @@ public class BeanAssember {
             if (StringUtil.isNullOrEmpty(field.getAnnotations())) {
                 continue;
             }
-            Annotation autoBuild = PropertUtil.getAnnotation(field, AutoBuild.class);
-            if (StringUtil.isNullOrEmpty(autoBuild)) {
+            Annotation AutoBean = PropertUtil.getAnnotation(field, AutoBean.class);
+            if (StringUtil.isNullOrEmpty(AutoBean)) {
                 continue;
             }
-            String[] beanNames = PropertUtil.getAnnotationValue(autoBuild, "value");
+            String[] beanNames = PropertUtil.getAnnotationValue(AutoBean, "value");
             beanSearch: for (String beanName : beanNames) {
                 if (StringUtil.isNullOrEmpty(beanName)) {
                     beanName = field.getType().getName();
