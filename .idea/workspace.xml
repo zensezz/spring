@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03ae7b0d-4324-4d3c-b780-d203b5f2d63a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/annotation/CacheWipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/annotation/CacheWipes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/annotation/CacheWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/aspect/CacheAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/constant/CacheConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/instance/LocalCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/instance/iface/ZZCacheFace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/pool/CacheThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/ELocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/ELocker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/aspect/ELockAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/aspect/ELockAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/pointer/ELockerPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/pointer/ELockerPointer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/redis/ELockCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/redis/ELockCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/AspectLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/AspectLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/BeanLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/BeanLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/FieldLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/FieldLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/InitRunLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/InitRunLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/util/AsmUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/util/AsmUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-test/src/main/java/cn/zz/framework/core/test/CoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test/src/main/java/cn/zz/framework/core/test/CoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-test/src/main/java/cn/zz/framework/core/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test/src/main/java/cn/zz/framework/core/test/Main.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spring-core/target/" />
+    <ignored path="$PROJECT_DIR$/spring-jdbc/target/" />
+    <ignored path="$PROJECT_DIR$/spring-test/target/" />
+    <ignored path="$PROJECT_DIR$/ik/target/" />
+    <ignored path="$PROJECT_DIR$/web/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cache/target/" />
+    <ignored path="$PROJECT_DIR$/cache/target/" />
+    <ignored path="$PROJECT_DIR$/elock/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/redis/ELockCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/test/ELockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/ELocker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/pointer/ELockerPointer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1076">
+              <caret line="124" column="28" selection-start-line="124" selection-start-column="28" selection-end-line="124" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#788#834#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/redis/entity/SubscriberEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/wrapper/ThreadWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/config/ClockConfigFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/exception/JedisNotInitedException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+              <folding>
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/exception/LockTimeOutException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cgl</find>
+      <find>�?</find>
+      <find>CoodyConfig</find>
+      <find>@SuppressWarnings({ &quot;rawtypes&quot; })</find>
+      <find>SuppressWarnings({ &quot;rawtypes&quot; })</find>
+      <find>CoodyException</find>
+      <find>SuppressWarnings</find>
+      <find>LoggerConstant.LOGGER_WRAPPER</find>
+      <find>AutoBuild</find>
+      <find>@Auto</find>
+      <find>AutoBu</find>
+      <find>parent</find>
+      <find>Coody</find>
+      <find>coody</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>BeanConfig</replace>
+      <replace>BaseException</replace>
+      <replace>LoggerConstant.LOGGER_WRAPPER.getValue()</replace>
+      <replace>AutoBean</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/enums/LoggerConstant.java" />
+        <option value="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/constant/FrameworkConstant.java" />
+        <option value="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/annotation/AutoBuild.java" />
+        <option value="$PROJECT_DIR$/spring-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-jdbc/src/main/java/cn/zz/framework/jdbc/JdbcHandle.java" />
+        <option value="$PROJECT_DIR$/spring-test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-test/src/main/java/cn/zz/framework/jdbc/annotation/Main.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/annotation.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/annotation/annotation.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/annotation/JsonOut.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/annotation/ParamName.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/annotation/ParamsAdapt.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/annotation/PathBinding.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/annotation/MvcEnums.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/contant/MvcEnums.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/FormMealAdapt.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/adapt/iface/CoodyParamsAdapt.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/adapt/iface/WebParamsAdapt.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/contant/MvcContant.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/util/RequestUtil.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/adapt/FormMealAdapt.java" />
+        <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/zz/framework/web/entity/MvcMapping.java" />
+        <option value="$PROJECT_DIR$/spring-jdbc/src/main/java/cn/zz/framework/jdbc/entity/JDBCEntity.java" />
+        <option value="$PROJECT_DIR$/spring-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/annotation/CacheWrite.java" />
+        <option value="$PROJECT_DIR$/cache/pom.xml" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/constant/CacheConstant.java" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/pool/CacheThreadPool.java" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/instance/iface/CoodyCacheFace.java" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/aspect/CacheAspect.java" />
+        <option value="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/core/annotation/ELock.java" />
+        <option value="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/config/ClockConfigFactory.java" />
+        <option value="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/config/LockTimeOutException.java" />
+        <option value="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/exception/JedisNotInitedException.java" />
+        <option value="$PROJECT_DIR$/elock/pom.xml" />
+        <option value="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/wrapper/ThreadWrapper.java" />
+        <option value="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/redis/entity/SubscriberEntity.java" />
+        <option value="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/test/ELockTest.java" />
+        <option value="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/redis/ELockCache.java" />
+        <option value="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/aspect/ELockAspect.java" />
+        <option value="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/FieldLoader.java" />
+        <option value="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/AspectLoader.java" />
+        <option value="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/BeanLoader.java" />
+        <option value="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/InitRunLoader.java" />
+        <option value="$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/util/AsmUtil.java" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/instance/LocalCache.java" />
+        <option value="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/instance/iface/ZZCacheFace.java" />
+        <option value="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/ELocker.java" />
+        <option value="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/pointer/ELockerPointer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.1\rep" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="3" />
+    <option name="width" value="1038" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="elock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="elock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="elock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="elock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="elock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="elock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="elock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="elock" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="CatdeaLogs" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="GO_FMT" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last.edited.regexp" value="Sample Text" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/elock/src/main/java/cn/zz/framework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/annotation" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.09815078" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.zz.framework.core.build" />
+      <recent name="cn.zz.framework.core.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\spring\cache\src\main\java\cn\zz\framework\core\annotation" />
+      <recent name="D:\project\spring\spring-core\src\main\java\cn\zz\framework\core\loader" />
+      <recent name="D:\project\spring\spring-core\src\main\java\cn\zz\framework\core\util" />
+      <recent name="D:\project\spring\spring-core\src\main\java\cn\zz\framework\core\constant" />
+      <recent name="D:\project\spring\spring-core\src\main\java\cn\zz\framework\core" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ELockTest">
+    <configuration name="CglibProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zz.framework.core.proxy.CglibProxy" />
+      <module name="spring-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zz.framework.core.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ELockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zz.framework.elock.test.ELockTest" />
+      <module name="elock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zz.framework.elock.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zz.framework.jdbc.annotation.Main" />
+      <module name="spring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zz.framework.jdbc.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zz.framework.core.test.Main" />
+      <module name="spring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zz.framework.core.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadBlockPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zz.framework.core.threadpool.ThreadBlockPool" />
+      <module name="spring-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zz.framework.core.threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zz.frameword.cache.CacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ELockTest" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CglibProxy" />
+        <item itemvalue="Application.ThreadBlockPool" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03ae7b0d-4324-4d3c-b780-d203b5f2d63a" name="Default Changelist" comment="" />
+      <created>1566547998459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566547998459</updated>
+      <workItem from="1566548001278" duration="6648000" />
+      <workItem from="1566884850414" duration="9983000" />
+      <workItem from="1566978078432" duration="3557000" />
+      <workItem from="1567051100498" duration="1967000" />
+      <workItem from="1567145746254" duration="1431000" />
+      <workItem from="1567755182787" duration="33000" />
+      <workItem from="1568100136455" duration="1592000" />
+      <workItem from="1568279018281" duration="4167000" />
+      <workItem from="1568596395344" duration="600000" />
+      <workItem from="1569809583999" duration="1362000" />
+      <workItem from="1570499916548" duration="39000" />
+      <workItem from="1572264522311" duration="2991000" />
+      <workItem from="1574242290176" duration="66000" />
+      <workItem from="1574673404178" duration="5158000" />
+      <workItem from="1574765402769" duration="1469000" />
+      <workItem from="1576657020989" duration="2204000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交maven，readme">
+      <created>1567145953555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567145953555</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改自动装配">
+      <created>1568282085530</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568282085530</updated>
+    </task>
+    <task id="LOCAL-00003" summary="redission过于庞大；于是使用redis的订阅模式实现分布式锁">
+      <created>1574732220254</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574732220254</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加测试代码">
+      <created>1574765620389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574765620389</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43267000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20622987" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="DB Browser" order="4" weight="0.2197092" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.5083612" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33890748" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32957748" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Alipay DevTools" order="14" />
+      <window_info anchor="bottom" id="SonarLint" order="15" />
+      <window_info anchor="bottom" id="Spring" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.16863587" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Json Parser" order="7" />
+      <window_info anchor="right" id="aiXcoder" order="8" side_tool="true" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Word Book" order="12" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22617124" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info active="true" id="DB Browser" order="4" visible="true" weight="0.2197092" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32998884" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.36677814" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32957748" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Alipay DevTools" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.31841832" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Json Parser" order="7" />
+      <window_info anchor="right" id="aiXcoder" order="8" side_tool="true" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/spring-framework" />
+    </ignored-roots>
+    <MESSAGE value="提交maven，readme" />
+    <MESSAGE value="修改自动装配" />
+    <MESSAGE value="redission过于庞大；于是使用redis的订阅模式实现分布式锁" />
+    <MESSAGE value="添加测试代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加测试代码" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/container/BeanContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/constant/FrameworkConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/annotation/Arounds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/annotation/LogHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/annotation/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/build/ConfigBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ik/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/logger/BaseLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test/src/main/java/cn/zz/framework/core/test/CoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test/src/main/java/cn/zz/framework/core/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-jdbc/src/main/java/cn/zz/framework/jdbc/JdbcHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="120" column="18" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1656#1657#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1768#1769#0" expanded="true" />
+            <element signature="e#1824#1825#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#6796#6797#0" expanded="true" />
+            <element signature="e#6850#6851#0" expanded="true" />
+            <element signature="e#7048#7049#0" expanded="true" />
+            <element signature="e#7092#7093#0" expanded="true" />
+            <element signature="e#7220#7221#0" expanded="true" />
+            <element signature="e#7275#7276#0" expanded="true" />
+            <element signature="e#15792#15793#0" expanded="true" />
+            <element signature="e#15852#15853#0" expanded="true" />
+            <element signature="e#15972#15973#0" expanded="true" />
+            <element signature="e#16031#16032#0" expanded="true" />
+            <element signature="e#19291#19292#0" expanded="true" />
+            <element signature="e#19353#19354#0" expanded="true" />
+            <element signature="e#21617#21618#0" expanded="true" />
+            <element signature="e#21670#21671#0" expanded="true" />
+            <element signature="e#22204#22205#0" expanded="true" />
+            <element signature="e#22259#22260#0" expanded="true" />
+            <element signature="e#27003#27004#0" expanded="true" />
+            <element signature="e#27060#27061#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test/src/main/java/cn/zz/framework/jdbc/annotation/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-jdbc/src/main/java/cn/zz/framework/jdbc/entity/JDBCEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-jdbc/src/main/java/cn/zz/framework/jdbc/entity/DBModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-jdbc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="56" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cache/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/spring-cache/src/main/java/com/zz/frameword/cache/CacheApplication.java" />
+    <entry file="file://$PROJECT_DIR$/spring-cache/src/test/java/com/zz/frameword/cache/CacheApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/annotation.java" />
+    <entry file="file://$PROJECT_DIR$/spring-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="30" selection-start-line="10" selection-start-column="2" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/annotation/AutoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/annotation/CacheWipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/annotation/CacheWipes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/annotation/CacheWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/aspect/CacheAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/constant/CacheConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/instance/iface/ZZCacheFace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/instance/LocalCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2653#2654#0" expanded="true" />
+            <element signature="e#2689#2690#0" expanded="true" />
+            <element signature="e#2739#2740#0" expanded="true" />
+            <element signature="e#2769#2770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/main/java/cn/zz/framework/core/pool/CacheThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/annotation/Around.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/src.zip!/java/lang/InterruptedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elock/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/rep/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/rep/redis/clients/jedis/3.0.1/jedis-3.0.1.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="1062" column="16" selection-start-line="1062" selection-start-column="16" selection-end-line="1062" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14607">
+          <caret line="554" column="26" selection-start-line="554" selection-start-column="26" selection-end-line="554" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/annotation/ELock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/aspect/ELockAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/FieldLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/cn/zz/framework/core/loader/i/Loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/config/ClockConfigFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/exception/JedisNotInitedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/exception/LockTimeOutException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/wrapper/ThreadWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/rep/redis/clients/jedis/3.0.1/jedis-3.0.1.jar!/redis/clients/jedis/JedisPubSub.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/redis/entity/SubscriberEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/pointer/ELockerPointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1076">
+          <caret line="124" column="28" selection-start-line="124" selection-start-column="28" selection-end-line="124" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#788#834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/ELocker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/test/ELockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elock/src/main/java/cn/zz/framework/elock/redis/ELockCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

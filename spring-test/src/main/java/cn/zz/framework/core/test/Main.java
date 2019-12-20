@@ -1,6 +1,6 @@
 package cn.zz.framework.core.test;
 
-import cn.zz.framework.core.annotation.AutoBuild;
+import cn.zz.framework.core.annotation.AutoBean;
 
 /**
  * @Author zenghzong
@@ -8,7 +8,7 @@ import cn.zz.framework.core.annotation.AutoBuild;
  * @Version 1.0
  */
 public class Main {
-    @AutoBuild
+    @AutoBean
     static  CoreTest coreTest;
 
     public static void main(String[] args) {

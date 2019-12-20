@@ -8,7 +8,7 @@ import cn.zz.framework.core.loader.i.Loader;
 /**
  * 字段加载器
  * 
- * @author Coody
+ * @author zensezz
  *
  */
 public class FieldLoader implements Loader {

@@ -1,13 +1,13 @@
 package cn.zz.framework.core.test;
 
-import cn.zz.framework.core.annotation.AutoBuild;
+import cn.zz.framework.core.annotation.AutoBean;
 
 /**
  * @Author zenghzong
  * @Since 2019/8/28
  * @Version 1.0
  */
-@AutoBuild
+@AutoBean
 public class CoreTest {
 
     public void test(){

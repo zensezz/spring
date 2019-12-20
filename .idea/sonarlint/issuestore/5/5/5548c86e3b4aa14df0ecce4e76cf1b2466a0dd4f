@@ -1,0 +1,41 @@
+
+4squid:S1643°"Use a StringBuilder instead.(Æ‚Å 
+{squid:S4144³"^Update this method so that its implementation is not identical to "getByMosaicChr" on line 54.( Æíşÿÿÿÿ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(Õåø€ûÿÿÿÿ
+|squid:S1149K"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ùú­î
+=squid:S1168""&Return an empty array instead of null.(¥¹ï
+Asquid:S00108(")Either remove or fill this block of code.(”ı¾
+usquid:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(çâîÀıÿÿÿÿ
+psquid:S2293K"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùú­î
+qsquid:S2293š"YReplace the type specification in this constructor call with the diamond operator ("<>").(çôÚÇ
+Csquid:S1168¨"+Return an empty collection instead of null.(¥¹ï
+Asquid:S2140í")Use "java.util.Random.nextInt()" instead.(©Ê“˜
+qsquid:S2293š"YReplace the type specification in this constructor call with the diamond operator ("<>").(çôÚÇ
+Csquid:S1168¥"+Return an empty collection instead of null.(¥¹ï
+vsquid:S2293´"YReplace the type specification in this constructor call with the diamond operator ("<>").(çâîÀıÿÿÿÿ
+Csquid:S1168É"+Return an empty collection instead of null.(¥¹ï
+vsquid:S2293Ì"YReplace the type specification in this constructor call with the diamond operator ("<>").(çâîÀıÿÿÿÿ
+Csquid:S1168á"+Return an empty collection instead of null.(¥¹ï
+vsquid:S2293ä"YReplace the type specification in this constructor call with the diamond operator ("<>").(½áØÔùÿÿÿÿ
+Bsquid:S00108ë")Either remove or fill this block of code.(”ı¾
+>squid:S1168ı"&Return an empty array instead of null.(¥¹ï
+Bsquid:S00108‡")Either remove or fill this block of code.(”ı¾
+qsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ç·€û
+Csquid:S1168Ÿ"+Return an empty collection instead of null.(¥¹ï
+>squid:S1168ö"&Return an empty array instead of null.(¥¹ï
+Csquid:S1452Ÿ"&Remove usage of generic wildcard type.(ÔéëŞÿÿÿÿÿ
+qsquid:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(¼¸€Ğ
+Csquid:S1168¨"+Return an empty collection instead of null.(¥¹ï
+Csquid:S1168¯"+Return an empty collection instead of null.(¥¹ï
+vsquid:S2293±"YReplace the type specification in this constructor call with the diamond operator ("<>").(Í¼·ùÿÿÿÿ
+>squid:S1452Á"&Remove usage of generic wildcard type.(Ã¤‹¸
+Csquid:S1168Ã"+Return an empty collection instead of null.(¥¹ï
+qsquid:S2293È"YReplace the type specification in this constructor call with the diamond operator ("<>").(¼¸€Ğ
+Csquid:S1168Ğ"+Return an empty collection instead of null.(¥¹ï
+>squid:S2129ı"!Remove this "Integer" constructor(ıè‘®øÿÿÿÿ
+Csquid:S1452‡"&Remove usage of generic wildcard type.(áÎæşÿÿÿÿ
+Csquid:S1168‰"+Return an empty collection instead of null.(¥¹ï
+vsquid:S2293‹"YReplace the type specification in this constructor call with the diamond operator ("<>").(…³ÂĞÿÿÿÿÿ
+Csquid:S1168“"+Return an empty collection instead of null.(¥¹ï
+;squid:S2153§"Remove the boxing to "Double".(ÿ‚úÓùÿÿÿÿ
+Csquid:S1075Ó"&Remove this hard-coded path-delimiter.(ƒ–çÿÿÿÿÿ

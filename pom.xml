@@ -33,6 +33,9 @@
         <module>spring-jdbc</module>
         <module>spring-test</module>
         <module>ik</module>
+        <module>web</module>
+        <module>cache</module>
+        <module>elock</module>
     </modules>
 
 

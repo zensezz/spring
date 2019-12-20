@@ -5,7 +5,7 @@ import cn.zz.framework.elock.pointer.ELockerPointer;
 /**
  * 分布式锁
  * 
- * @author Coody
+ * @author zensezz
  *
  */
 public class ELocker {

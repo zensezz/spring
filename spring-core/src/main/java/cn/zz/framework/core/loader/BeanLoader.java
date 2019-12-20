@@ -12,7 +12,7 @@ import java.lang.annotation.Annotation;
 /**
  * Bean加载器
  * 
- * @author Coody
+ * @author zensezz
  *
  */
 public class BeanLoader implements Loader {

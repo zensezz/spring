@@ -21,7 +21,7 @@ import java.lang.reflect.Method;
 public class ELockAspect {
 
 	/**
-	 * 分布式锁切面，提供给Coody Framework AOP工具
+	 * 分布式锁切面，
 	 * 
 	 * @param point
 	 * @return

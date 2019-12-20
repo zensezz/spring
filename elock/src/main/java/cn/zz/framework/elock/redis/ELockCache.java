@@ -1,6 +1,5 @@
 package cn.zz.framework.elock.redis;
 
-
 import cn.zz.framework.core.util.PropertUtil;
 import cn.zz.framework.core.util.StringUtil;
 import cn.zz.framework.elock.config.ClockConfigFactory;

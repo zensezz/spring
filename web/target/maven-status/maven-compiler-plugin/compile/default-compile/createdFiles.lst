@@ -1,0 +1,9 @@
+cn\zz\framework\web\annotation\ParamsAdapt.class
+cn\zz\framework\web\annotation\JsonOut.class
+cn\zz\framework\web\util\RequestUtil.class
+cn\zz\framework\web\entity\MvcMapping.class
+cn\zz\framework\web\adapt\FormMealAdapt.class
+cn\zz\framework\web\contant\MvcContant.class
+cn\zz\framework\web\adapt\iface\WebParamsAdapt.class
+cn\zz\framework\web\annotation\ParamName.class
+cn\zz\framework\web\annotation\PathBinding.class

@@ -9,6 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>spring-test</artifactId>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <groupId>com.zz.frameword</groupId>
     <version>1.0-SNAPSHOT</version>
 
@@ -19,9 +31,14 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.zz.framework</groupId>
-            <artifactId>spring-core</artifactId>
+            <groupId>com.zz.frameword</groupId>
+            <artifactId>spring-jdbc</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.46</version>
         </dependency>
     </dependencies>
 

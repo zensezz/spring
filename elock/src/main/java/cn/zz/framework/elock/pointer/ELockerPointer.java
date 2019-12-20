@@ -16,11 +16,12 @@ import org.apache.log4j.Logger;
 
 public class ELockerPointer {
 
-	private static ELockCache eLockCache;
+	private static ELockCache cache;
 
 	static Logger logger = Logger.getLogger(ELockerPointer.class);
 
-	private static final Map<String, ConcurrentLinkedQueue<ThreadWrapper>> THREAD_CONTAINER = new ConcurrentHashMap<String, ConcurrentLinkedQueue<ThreadWrapper>>();
+	private static final Map<String, ConcurrentLinkedQueue<ThreadWrapper>> THREAD_CONTAINER
+			= new ConcurrentHashMap<String, ConcurrentLinkedQueue<ThreadWrapper>>();
 
 	static {
 		// 启动守护线程
@@ -31,7 +32,7 @@ public class ELockerPointer {
 						TimeUnit.MILLISECONDS.sleep(2);
 						guard();
 					} catch (Exception e) {
-						// TODO: handle exception
+
 					}
 				}
 			}
@@ -47,7 +48,7 @@ public class ELockerPointer {
 	 * @throws LockTimeOutException
 	 */
 	public static void fallIn(String key, Integer expireSecond) throws InterruptedException {
-		if (eLockCache == null || !eLockCache.isConnectioned()) {
+		if (cache == null || !cache.isConnectioned()) {
 			throw new JedisNotInitedException("JedisPool未初始化");
 		}
 		Long timeOut = expireSecond.longValue() * 1000;
@@ -91,12 +92,12 @@ public class ELockerPointer {
 	}
 
 	public static void fallOut(String key) {
-		eLockCache.delCache(key);
-		eLockCache.publish(ClockConfigFactory.CHANNEL, key);
+		cache.delCache(key);
+		cache.publish(ClockConfigFactory.CHANNEL, key);
 	}
 
 	private static boolean tryLock(String key, Integer expireSecond) {
-		return eLockCache.setNx(key, expireSecond);
+		return cache.setNx(key, expireSecond);
 	}
 
 	private static synchronized void guard() {
@@ -117,11 +118,11 @@ public class ELockerPointer {
 	}
 
 	public static ELockCache getELockCache() {
-		return eLockCache;
+		return cache;
 	}
 
 	public static void setELockCache(ELockCache eLockCache) {
-		ELockerPointer.eLockCache = eLockCache;
+		ELockerPointer.cache = eLockCache;
 	}
 	
 	
